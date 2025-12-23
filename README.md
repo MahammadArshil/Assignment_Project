@@ -1,1 +1,92 @@
 # Assignment_Project
+
+> **Assignment_Project** — A full-stack application built as part of an assignment.  
+> Made by **Mahammad Arshil Vahora**.
+---
+
+## 🧠 About the Project
+
+**Assignment_Project** is a full-stack application that includes both a frontend and a backend implementation.  
+Where the user can Login/ Signup as Student/Admin. After Role the appropriate Dashboard Appears.
+Role: 
+1) Admin
+   ✔ Can See Students Data,
+   ✔ Can Add/ Edit/ Delete Student Data.
+2) Student
+   ✔ Can view Profile
+   ✔ Can Edit Profile.
+---
+
+## ✨ Features
+
+✔ Feature 1 — User Authentication
+✔ Feature 2 — Role based Dashboard .
+✔ Feature 3 —  Logout option.
+✔ Feature 4 — REST API endpoints  
+
+---
+
+## 🛠 Tech Stack
+
+This project is built using the following technologies:
+
+| Frontend | Backend | Database |
+| -------- | ------- | -------- |
+| JavaScript | Node.js / Express | MongoDB | React.js | TailwindCSS | Axios |
+
+---
+
+## 🚀 Getting Started
+Follow these steps to set up and run the project locally:
+
+### 📂 1. Clone the Repository
+```sh
+ git clone https://github.com/mahammadarshil/Assignment_Project.git
+ cd mern-todo-app
+```
+
+### 🏗 2. Install Dependencies
+Run the following commands inside both `frontend/` and `backend/` folders:
+```sh
+ cd backend
+ npm install | npm i
+```
+```sh
+ cd frontend
+ npm install | npm i
+```
+
+### 🔑 3. Configure MongoDB Connection
+In the `backend/` folder, open the `db.js` file and update the MongoDB URI:
+```js
+
+...
+mongoose.connect("<your_mongodb_connection_string>")
+    .then(() => console.log("MongoDB Connected"))
+    .catch(err => console.log(err));
+...
+```
+
+### ▶️ 4. Run the App
+Open **two terminals**, one for the backend and one for the frontend.
+
+#### Start Backend Server 🌍
+```sh
+ cd backend
+ npm run dev
+```
+
+#### Start Frontend React App 🎨
+```sh
+ cd frontend
+ npm run dev
+```
+---
+
+## 📬 Contact
+📧 Email: mahammadarshil007@gmail.com
+🔗 LinkedIn: [Mahammad Arshil Vahora](https://www.linkedin.com/in/mahammadarshil-vahora/)  
+
+---
+
+Made with ❤️ by **Mahammad Arshil Vahora** 🚀
