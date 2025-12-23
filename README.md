@@ -56,14 +56,12 @@ Run the following commands inside both `frontend/` and `backend/` folders:
  npm install | npm i
 ```
 
-### 🔑 3. Configure MongoDB Connection
-In the `backend/` folder, open the `db.js` file and update the MongoDB URI:
+### 🔑 3. Configure .env file. In the `backend/` create `.env` file and Add this details:
 ```js
 
 ...
-mongoose.connect("<your_mongodb_connection_string>")
-    .then(() => console.log("MongoDB Connected"))
-    .catch(err => console.log(err));
+PORT = <Port number>
+MONGO_URI = <Your mongodb url>
 ...
 ```
 
