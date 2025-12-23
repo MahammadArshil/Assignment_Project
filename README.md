@@ -32,7 +32,7 @@ This project is built using the following technologies:
 
 | Frontend | Backend | Database |
 | -------- | ------- | -------- |
-| JavaScript | Node.js / Express | MongoDB | React.js | TailwindCSS | Axios |
+| React.js | Node.js / Express | MongoDB | React.js | TailwindCSS | Axios |
 
 ---
 
@@ -42,7 +42,7 @@ Follow these steps to set up and run the project locally:
 ### 📂 1. Clone the Repository
 ```sh
  git clone https://github.com/mahammadarshil/Assignment_Project.git
- cd mern-todo-app
+ cd Assignment_Project
 ```
 
 ### 🏗 2. Install Dependencies
