@@ -56,12 +56,14 @@ Run the following commands inside both `frontend/` and `backend/` folders:
  npm install | npm i
 ```
 
-### 🔑 3. Configure .env file. In the `backend/` create `.env` file and Add this details:
+### 🔑 3. Configure .env file. In the `backend/`.
+Create `.env` file and Add this details:
 ```js
 
 ...
 PORT = <Port number>
 MONGO_URI = <Your mongodb url>
+TOKEN_KEY = <Your token key for JWT>
 ...
 ```
 
